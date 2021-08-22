@@ -1,4 +1,4 @@
-# Kafka Streams Spike
+# Kafka ETL example
 
 This repository contains sample code for ETL using kafka steams
 
