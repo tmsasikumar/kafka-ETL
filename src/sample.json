@@ -1,0 +1,14 @@
+[
+  {
+    "participationId": "part1",
+    "productId": "prd1",
+    "action": "VIDEO_VIEW",
+    "duration": 1
+  },
+  {
+    "participationId": "part1",
+    "productId": "prd1",
+    "action": "VIDEO_VIEW",
+    "duration": 1
+  }
+]

@@ -1,0 +1,33 @@
+bankmaster:
+IDFB0080105: {"ifscCode": "IDFB0080105", "branchName": "Mumbai"}
+IDFB0060206: {"ifscCode": "IDFB0060206", "branchName": "Chennai"}
+IDFB0070307: {"ifscCode": "IDFB0070307", "branchName": "Delhi"}
+IDFB0090405: {"ifscCode": "IDFB0090405", "branchName": "Coimbatore"}
+IDFB0050506: {"ifscCode": "IDFB0050506", "branchName": "Bangalore"}
+IDFB0070308: {"ifscCode": "IDFB0070308", "branchName": "Hyderabad"}
+
+
+
+
+transaction_master:
+{ "transactionId":"tran_1","description":"Chennai Transaction1","customerId":"cust_123","ifscCode":"IDFB0060206" }
+
+{ "transactionId":"tran_2","description":"Chennai Transaction2","customerId":"cust_111","ifscCode":"IDFB0060206" }
+
+{ "transactionId":"tran_3","description":"Chennai Transaction3","customerId":"cust_222","ifscCode":"IDFB0060206" }
+
+{ "transactionId":"tran_4","description":"Mumbai Transaction1","customerId":"cust_222","ifscCode":"IDFB0080105" }
+{ "transactionId":"tran_5","description":"bangalore Transaction1","customerId":"cust_123","ifscCode":"IDFB0050506" }
+{ "transactionId":"tran_6","description":"delhi Transaction1","customerId":"cust_444","ifscCode":"IDFB0070307" }
+
+{ "transactionId":"tran_6","description":"chennai transaction6","customerId":"cust_555","ifscCode":"IDFB0060206" }
+
+{ "transactionId":"tran_7","description":"Hyderabad Transaction1","customerId":"cust_444","ifscCode":"IDFB0070308" }
+
+
+transactionoutlets:
+tran_1: { "transactionId":"tran_1", "outletName":"tran 1 outlet" }
+tran_2: { "transactionId":"tran_2", "outletName":"tran 2 outlet" }
+tran_4: { "transactionId":"tran_4", "outletName":"tran 4 outlet" }
+tran_5: { "transactionId":"tran_5", "outletName":"tran 5 outlet" }
+tran_6: { "transactionId":"tran_6", "outletName":"tran 6 outlet" }
